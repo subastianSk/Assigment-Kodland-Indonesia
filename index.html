@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html class="sr" lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pop It - Kodland</title>
+  <link rel="icon" href="img/favicon.ico" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Hamburgers CSS -->
+  <link rel="stylesheet" href="css/hamburgers.css" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Swiper JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header__nav container">
+      <div class="header__logo">Pop IT!</div>
+      <ul class="header__menu header__menu_hide">
+        <li class="menu-list">Home</li>
+        <li class="menu-list">Product</li>
+        <li class="menu-list">Details</li>
+      </ul>
+      <button class="hamburger hamburger--collapse" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero__cta">
+        <h1 class="hero__cta-title">POP IT!</h1>
+        <p class="hero-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos officiis suscipit similique nisi placeat
+          libero ut impedit at! Blanditiis neque aut aliquam eum facilis doloremque. Aliquam perferendis vero rerum
+          repellendus!
+        </p>
+        <button class="btn btn-primary">
+          <span>Pop Now</span>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+      <div class="hero__image-container">
+        <img src="img/pop-it.png" alt="pop-it-kodland-assigment" class="hero__image" />
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <h2 class="about__heading heading">Do You Know What is Pop It?</h2>
+        <p class="about__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          mollitia ducimus, facere, recusandae consequatur magni optio qui
+          obcaecati ullam explicabo dicta aut, esse officia enim unde quod
+          temporibus. Dignissimos voluptate amet similique facere est rerum id
+          quam dicta provident nam.
+        </p>
+      </div>
+    </section>
+    <section class="product">
+      <div class="container">
+        <h2 class="product__heading heading">Bestsellers Pop it!</h2>
+        <div class="swiper-container swiper">
+          <div class="swiper-wrapper">
+            <div class="product__card swiper-slide">
+              <img class="product__card-image" src="img/square.png" alt="pop-it-kodland-assigment" />
+              <p class="product__card-title">Colorful Square</p>
+              <a href="#" class="product__card-button">See Details</a>
+            </div>
+            <div class="product__card swiper-slide">
+              <img class="product__card-image" src="img/amongus.png" alt="pop-it-kodland-assigment" />
+              <p class="product__card-title">Among Us Character</p>
+              <a href="#" class="product__card-button">See Details</a>
+            </div>
+            <div class="product__card swiper-slide">
+              <img class="product__card-image" src="img/round.png" alt="pop-it-kodland-assigment" />
+              <p class="product__card-title">Colorful Round</p>
+              <a href="#" class="product__card-button">See Details</a>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <section class="detail">
+      <div class="detail__container container">
+        <div class="detail__content">
+          <h2 class="heading">Playing Game with POP IT!</h2>
+          <p class="hero-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero laboriosam mollitia autem, ratione eius
+            laudantium dicta porro repudiandae, repellat praesentium beatae ea necessitatibus iusto eos voluptate
+            eligendi distinctio molestiae qui.
+          </p>
+        </div>
+        <div class="detail__image-container">
+          <img class="detail__image" src="img/photo.jpg" alt="pop-it-kodland-assigment" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__logo">Pop IT!</div>
+      <ul class="footer__menu">
+        <li class="menu-list">Contact Us</li>
+        <li class="menu-list">About Us</li>
+        <li class="menu-list">Terms & Conditions</li>
+        <li class="menu-list">Privacy Policy</li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
